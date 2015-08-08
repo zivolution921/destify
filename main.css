@@ -1,19 +1,322 @@
-body { padding-top:30px;
-background-image: url('Desktop/codifyacademy/destify/dating.jpeg');
- }
-.form-control { margin-bottom: 10px; }
+body {
+	background-color: #1F9BC9;
+	padding-bottom: 
+}
+.form-control { margin-bottom: 10px; 
+}
 .container {
-    position:absolute;
-     width:500px;
+    
+     width:100%;
      height:600px;
      top:50%;
-     left:50%;
      margin: 0;
      padding: 0;  
 }
+#main {
+	margin: 0px auto;
+	border: 2px solid red;
+	width: 100px;
+	height: 75px;
+	background: red;
+	text-align: center;
+	color: #fff;
+	-webkit-border-radius: 10px;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+}
+#main:hover {
+	-webkit-transform: rotate (360deg);
+	opacity: 1;
+	background: #1ec7e6;
+	width: 450px;
+	height: 110px;
+}
 form {
+    display: inline-block;
     text-align: center;
+    }
 }
 .dating {
     width: 600px;
+}
+  .well-sm {
+    padding:13px;
+    border-radius: 13px;
+    width: 300px;
+    right: -9%;
+
+  }
+  .card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 130px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+ 
+
+.glyphicon {
+position: static;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+    display: inline-block;
+    height: 10px;
+    z-index: 11;
+    line-height: 1;
+  }
+
+    clear: both;
+    /*margin: 0 50px;*/
+    overflow: hidden;
+}
+.funkyradio label {
+    /*min-width: 400px;*/
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.funkyradio-danger input[type="radio"]:checked ~ label:before, .funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.funkyradio-warning input[type="radio"]:checked ~ label:before, .funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.funkyradio-info input[type="radio"]:checked ~ label:before, .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+.carousel-caption img {
+	width: 100%;
+	height: 400px !important;
+	margin: 0 auto;
+}
+.item img {
+	width: 100%;
+	height: 400px !important;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+.panel panel-primary {
+	margin-left: 50px;
+	 border: 1px solid #999;
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  margin: 0 5px;
+  pointer-events: auto;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.footer-container {
+	padding-bottom: 10px;
+	padding-top: 40px;
+	text-align: center;
+	background: #242d32;
+	color: #a7b3b9;
+	display: inline-block;
+   bottom:0;
+   width:100%;
+   height: 150px;
+  
+}
+.footer-container footer {
+	padding: 20px 0;
+	
+   bottom:0;
+   width:100%;
+}
+.wrapper {
+	
+   bottom:0;
+   width:100%;
+	margin: 0 auto;
+	display: block;
+}
+.footer-container li {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+}
+ul.social-link a {
+	font-family: 'socialiconregular';
+	font-size: 56px;
 }

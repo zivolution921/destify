@@ -1,0 +1,15 @@
+body {
+	background-color: #1F9BC9;
+}
+#chat {
+	position: absolute;
+	right: 0;
+	width: 215px;
+}
+.img-circle {
+width: 150px;
+}
+.stars_following {
+	width: 150px;
+	padding: 0 auto;
+}

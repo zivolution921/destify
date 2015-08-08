@@ -4,13 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css">
 
-<link rel="stylesheet" type="text/css" href="">
+<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Destify</title>
 </head>
+
 <body>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<body>
+
 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
   <span aria-hidden="true">&times;</span>
 </button>
@@ -28,7 +30,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         
         <li><a href="my_profile.html">My Profile</a></li>
         <li class="dropdown">
@@ -40,7 +42,7 @@
           </ul>
         </li>
         <li><a href="about.html">About</a></li>
-      </ul>	
+      </ul> 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -52,9 +54,63 @@
 
   </header>
 
-<body>
+  <div id="main">
+  <p id="text">DESTIFY</p>
+  </div>
+
   <div class="container">
     <div class="row">
+    
+
+
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="col-md-4 col-md-offset-4"> 
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/dating2.jpeg" alt="DATING">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/gym_partner.jpeg" alt="GYM">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/business.jpeg" alt="business">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<br>
+<br>
+<br>
+
     <!-- ---------------- Sign-Up ------------------ -->
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 well well-sm">
 
@@ -69,7 +125,7 @@
             </div>
           </div>
           <input class="form-control"
-                 name"zip-code" placeholder="Zip-code" type"zip-code"  />
+                 name="zip-code" placeholder="Zip-code" type"zip-code"  />
           <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
           <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
           <input class="form-control" name="password" placeholder="New Password" type="password" />
@@ -110,6 +166,50 @@
     </div>
 </div>
 
+<!--footer-->
+
+<div class="footer-container">
+  <footer class="wrapper clearfix">
+    
+    <ul>
+      <li>
+        <a href="about">About</a>
+      </li>
+      <li>
+        <a href="apps">Apps</a>
+      </li>
+      <li>
+        <a href="login">Login</a>
+      </li>
+      <li>
+        <a href="register">Sign Up</a>
+      </li>
+      <li>
+        <a href="legal/privacy">Privacy</a>
+      </li>
+    </ul>
+    <ul class="social-link clearfix">
+   
+    <li>
+      <a href="https://blog.wnmlive.com" target="_blank">b</a>
+    </li>
+    <li>
+      <a href="https://www.twitter.com/wnmlive" target="_blank" rel="nofollow">t</a>
+    </li>
+    <li>
+      <a href="http://www.facebook.com/wnm-live" target="_blank" rel="nofollow">f</a>
+    </li>
+    
+    </ul>
+    
+    </footer>
+  </div>
+</div>  
+
+
+
+ 
+
 
 </body>
 
@@ -120,5 +220,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-</body>
+
 </html>
